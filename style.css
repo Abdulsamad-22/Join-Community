@@ -1,0 +1,129 @@
+body{
+	font-family: montserrat,sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #DADFDF;
+}
+
+
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+main{
+	width: 34.25rem;
+	height: 27.375rem;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+.About-us{
+	width: 31.25rem;
+	height: 9.375rem;
+	border-radius: 8px 8px 0px 0px;
+	padding: 2rem 1.5rem 0.75rem 1.5rem;
+	background-color: #Ffffff;
+}
+
+.header{
+	color: #108281;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+
+.sub-header{
+	color: #9CCF0A;
+	font-size: 1.125rem;
+	margin-bottom: 0.75rem;
+}
+
+.description{
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: #ACB8B8;
+	width: 28.125rem;
+}
+
+.subscription-info{
+	width: 17.125rem;
+	height: 11.25rem;
+	border-radius: 0px 0px 0px 8px;
+	padding: 2.5rem 1.25rem 1.25rem 1.25rem;
+	background-color: #108281;
+	margin-bottom: 12px;
+}
+
+.monthly-subscription{
+	font-size: 1.125rem;
+	color: white;
+	margin-bottom: 1.25rem;
+}
+
+.subscription-amount{
+	font-size: 2rem;
+	font-weight: 600;
+	color: white;
+	margin-bottom: 0.75rem;
+}
+
+.subscription-amount span{
+	font-size: 0.75rem;
+	color: #B5BEBE;
+	margin-bottom: 1.125rem;
+}
+
+.subscription-about{
+	font-size: 0.875rem;
+	color: white;
+	margin-bottom: 1.125rem;
+}
+
+button{
+	padding: 12px 12px;
+	width: 210px;
+	border: none;
+	border-radius: 4px;
+	background-color: #A2D60E;
+	font-size: 0.875rem;
+	font-weight: 600;
+	color: white;
+	cursor: pointer;
+	transition: opacity 0.15s;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+.why-us{
+	width: 17.125rem;
+	height: 11.25rem;
+	border-radius: 0px 0px 8px 0px;
+	padding: 2.5rem 1.25rem 1.25rem 1.25rem;
+	background-color: #4BACAB;
+}
+
+.why-us-label{
+	font-size: 1.125rem;
+	color: white;
+	margin-bottom: 1.25rem;
+}
+
+.why-us-text{
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	letter-spacing: 0.5px;
+	width: 200px;
+	color: #E4EBEB;
+	margin-bottom: 0.875rem;
+}
+
+.company-about{
+	display: flex;
+	width: 34.25rem;
+	flex: 1 1;
+}
